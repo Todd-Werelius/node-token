@@ -9,7 +9,6 @@ test-istanbul-mocha: node_modules
 	NODE_PATH=$(NODE_PATH_TEST) \
 	$(ISTANBUL) cover \
 	--dir $(ISTANBUL_OUT) --report $(ISTANBUL_REPORT) \
-
 	$(_MOCHA) -- \
 		--reporter $(MOCHA_REPORTER) \
 		$(TESTS)
