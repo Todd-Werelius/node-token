@@ -12,7 +12,6 @@ test-istanbul-mocha: node_modules
 	#node_modules/mocha/bin/_mocha -- -R spec ./test/**/*.test.js
 	$(_MOCHA) -- \
 		--reporter $(MOCHA_REPORTER) \
-	#	--require $(MOCHA_REQUIRE) \
 		$(TESTS)
 
 view-istanbul-report:
