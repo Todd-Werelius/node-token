@@ -9,7 +9,7 @@ test-istanbul-mocha: node_modules
 	NODE_PATH=$(NODE_PATH_TEST) \
 	$(ISTANBUL) cover \
 	--dir $(ISTANBUL_OUT) --report $(ISTANBUL_REPORT) \
-	#node_modules/mocha/bin/_mocha -- -R spec ./test/**/*.test.js
+
 	$(_MOCHA) -- \
 		--reporter $(MOCHA_REPORTER) \
 		$(TESTS)
@@ -20,3 +20,4 @@ view-istanbul-report:
 .PHONY: test-istanbul-mocha view-istanbul-report
 
 #node ./node_modules/istanbul/lib/cli.js cover --dir ./reports/coverage node_modules/mocha/bin/_mocha -- -R spec ./test/**/*.test.js
+#node_modules/mocha/bin/_mocha -- -R spec ./test/**/*.test.js
