@@ -1,4 +1,4 @@
-+[![Stories in Ready](https://badge.waffle.io/todd-werelius/node-token.png?label=ready&title=Ready)](https://waffle.io/todd-werelius/node-token)
+[![Stories in Ready](https://badge.waffle.io/todd-werelius/node-token.png?label=ready&title=Ready)](https://waffle.io/todd-werelius/node-token)
 
 node-token
 ==========
