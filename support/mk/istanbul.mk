@@ -9,11 +9,11 @@ test-istanbul-mocha: node_modules
 	NODE_PATH=$(NODE_PATH_TEST) \
 	$(ISTANBUL) cover \
 	--dir $(ISTANBUL_OUT) --report $(ISTANBUL_REPORT) \
-	node_modules/mocha/bin/_mocha -- -R spec ./test/**/*.test.js
-	#$(_MOCHA) -- \
-	#	--reporter $(MOCHA_REPORTER) \
+	#node_modules/mocha/bin/_mocha -- -R spec ./test/**/*.test.js
+	$(_MOCHA) -- \
+		--reporter $(MOCHA_REPORTER) \
 	#	--require $(MOCHA_REQUIRE) \
-	#	$(TESTS)
+		$(TESTS)
 
 view-istanbul-report:
 	open $(ISTANBUL_HTML_REPORT_PATH)
