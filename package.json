@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "JWT Token Library + Node Middleware for processing basic auth and bearer token Authorization Headers",
   "author": {
-    "name" : "Todd Werelius",
+    "name": "Todd Werelius",
     "email": "todd.werelius@mofodv.com",
-    "url" : "http://mofodv.com/"
+    "url": "http://mofodv.com/"
   },
   "keywords": [
     "JWT",
@@ -24,17 +24,17 @@
     "Middleware"
   ],
   "repository": {
-        "type": "git",
-        "url": "git://github.com/todd-werelius/node-token.git"
+    "type": "git",
+    "url": "git://github.com/todd-werelius/node-token.git"
   },
   "bugs": {
     "url": "http://github.com/todd-werelius/node-token/issues"
   },
   "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://www.opensource.org/licenses/MIT"
-        }
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
   ],
   "main": "index.js",
   "scripts": {
@@ -46,7 +46,8 @@
     "should": "^3.3.1"
   },
   "dependencies": {
-    "jws": "^0.2.5"
+    "jws": "^0.2.5",
+    "underscore": "^1.6.0"
   },
   "engines": {
     "node": "*"
