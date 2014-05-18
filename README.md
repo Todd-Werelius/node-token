@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Todd-Werelius/node-token.svg?branch=master)](https://travis-ci.org/Todd-Werelius/node-token)
 [![Stories in Ready](https://badge.waffle.io/todd-werelius/node-token.png?label=ready&title=Ready)](https://waffle.io/todd-werelius/node-token)
 [![Dependency Status](https://gemnasium.com/Todd-Werelius/node-token.svg)](https://gemnasium.com/Todd-Werelius/node-token)
 
