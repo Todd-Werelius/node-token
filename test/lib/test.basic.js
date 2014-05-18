@@ -55,5 +55,35 @@ describe('basic',function(){
         });
     });
 
+    describe('encode',function() {
+        it('should return Error if credentials is not a string', function (done) {
+
+            basic.encode({}, function (err, credentials) {
+                err.should.be.an.instanceof(Error);
+                should(credentials).equal(null);
+                done();
+            });
+        });
+
+        it('should return Error if credentials is an empty string', function (done) {
+
+            basic.encode('', function (err, credentials) {
+                err.should.be.an.instanceof(Error);
+                should(credentials).equal(null);
+                done();
+            });
+        });
+
+        it('should return a base64 string if credentials is a populated string', function (done) {
+
+            basic.encode('mystring', function (err, credentials) {
+                credentials.should.equal("bXlzdHJpbmc=");
+                should(err).equal(null);
+                done();
+            });
+        });
+    });
+
+
 });
 
