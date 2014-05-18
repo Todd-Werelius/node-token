@@ -1,10 +1,11 @@
 {
   "name": "node-token",
-  "version": "0.0.0",
-  "description": "JWT Token Library + Middleware for processing basic auth and bearer token Authorization Headers",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha test --recursive --reporter spec"
+  "version": "0.0.1",
+  "description": "JWT Token Library + Node Middleware for processing basic auth and bearer token Authorization Headers",
+  "author": {
+    "name" : "Todd Werelius",
+    "email": "todd.werelius@mofodv.com",
+    "url" : "http://mofodv.com/"
   },
   "keywords": [
     "JWT",
@@ -22,14 +23,32 @@
     "Express",
     "Middleware"
   ],
-  "author": "Todd Werelius <todd.werelius@mofodv.com> (http://mofodv.com/)",
-  "license": "MIT",
+  "repository": {
+        "type": "git",
+        "url": "git://github.com/todd-werelius/node-token.git"
+  },
+  "bugs": {
+    "url": "http://github.com/todd-werelius/node-token/issues"
+  },
+  "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive --reporter spec"
+  },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
-    "mocha": "^1.19.0",
+    "mocha": "^1.18.2",
     "should": "^3.3.1"
   },
   "dependencies": {
     "jws": "^0.2.5"
+  },
+  "engines": {
+    "node": "*"
   }
 }
