@@ -1,6 +1,7 @@
 [![Stories in Ready](https://badge.waffle.io/todd-werelius/node-token.png?label=ready&title=Ready)](https://waffle.io/todd-werelius/node-token)
 [![Build Status](https://travis-ci.org/Todd-Werelius/node-token.svg?branch=master)](https://travis-ci.org/Todd-Werelius/node-token)
 [![Coverage Status](https://img.shields.io/coveralls/Todd-Werelius/node-token.svg)](https://coveralls.io/r/Todd-Werelius/node-token)
+[![Code Climate](https://codeclimate.com/github/Todd-Werelius/node-token.png)](https://codeclimate.com/github/Todd-Werelius/node-token)
 [![Dependency Status](https://gemnasium.com/Todd-Werelius/node-token.svg)](https://gemnasium.com/Todd-Werelius/node-token)
 
 node-token
