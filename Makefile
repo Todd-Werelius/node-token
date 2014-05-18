@@ -1,4 +1,4 @@
-SOURCES ?= lib/*.js lib/**/*.js
+SOURCES ?= lib/*.js lib/**/*.js ./*.js
 TESTS ?= test/*.test.js test/**/*.test.js
 
 test: test-mocha
