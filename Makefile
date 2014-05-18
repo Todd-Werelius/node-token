@@ -44,4 +44,4 @@ clean:
 clobber: clean clobber-node
 
 
-.PHONY: test test-cov view-cov lint lint-tests submit-cov-to-coveralls ci-travis clean clobber
+.PHONY: test test-cov view-cov lint submit-cov-to-coveralls ci-travis clean clobber
