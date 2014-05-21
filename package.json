@@ -1,7 +1,7 @@
 {
-  "name": "node-token",
+  "name": "node-jws",
   "version": "0.0.1",
-  "description": "JWT Token Library + Node Middleware for processing basic auth and bearer token Authorization Headers",
+  "description": "JWT Token Singing Library + Node Middleware for processing basic auth and bearer token Authorization Headers",
   "author": {
     "name": "Todd Werelius",
     "email": "todd.werelius@mofodv.com",
@@ -13,6 +13,7 @@
     "JWT Token",
     "JSON Tokens",
     "JSON Token",
+    "JWS",
     "Basic Auth",
     "Bearer Token",
     "Token",
@@ -25,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/todd-werelius/node-token.git"
+    "url": "git://github.com/todd-werelius/node-jws.git"
   },
   "bugs": {
-    "url": "http://github.com/todd-werelius/node-token/issues"
+    "url": "http://github.com/todd-werelius/node-jws/issues"
   },
   "licenses": [
     {
@@ -42,12 +43,12 @@
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
+    "istanbul": "^0.2.10",
     "mocha": "^1.18.2",
     "should": "^3.3.1",
-    "istanbul": "^0.2.10"
+    "sinon": "^1.10.0"
   },
   "dependencies": {
-
     "jws": "^0.2.5",
     "underscore": "^1.6.0"
   },
