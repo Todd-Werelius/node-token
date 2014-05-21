@@ -3,15 +3,14 @@
 [![Coverage Status](https://coveralls.io/repos/Todd-Werelius/node-token/badge.png?branch=master)](https://coveralls.io/r/Todd-Werelius/node-token?branch=master)
 [![Code Climate](https://codeclimate.com/github/Todd-Werelius/node-token.png)](https://codeclimate.com/github/Todd-Werelius/node-token)
 [![Dependency Status](https://gemnasium.com/Todd-Werelius/node-token.svg)](https://gemnasium.com/Todd-Werelius/node-token)
-
 node-token
 ==========
+Extensible Authorization Middleware with Basic and JWT ( Jason Web Token ) Authorization Support out of the box. JWT Support is limited to JWS ( Signed Tokens ) vs. JWE ( Encrypted ) Tokens. 
 
-JWT Token Library and Node Middleware for Connect, Express, or Restify to support basic and bearer toekn Authorization Header Processing 
+Works with Express, Connect, Restify and any other middleware that uses the (req,res,next) asynchronus middleware patterns 
 
 Author
 --------------------
-
 Todd Werelius - <todd.werelius@mofodv.com>
 
 <a href="http://www.linkedin.com/in/toddwerelius/">
